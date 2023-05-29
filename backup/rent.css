@@ -1,0 +1,86 @@
+header{
+    width:100%;
+    padding-top: 0px;
+    right:0;
+    z-index:1000;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    background:gainsboro;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.logo img{
+    width: 300px;
+    height: 100px;
+}
+.navbar{
+    display:flex;
+    list-style-type:none;
+}
+.navbar li{
+    position:relative;
+    float:center;
+}
+.navbar a{
+    padding: 10px 15px;
+    font-size:25px;
+    font-weight:500;
+    color:black;
+    float:center;
+    align-items: right;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:orange;
+    transition:0.5s;
+}
+.login a{
+    padding: 10px 10px;
+    justify-content: space-between;
+    color: black;
+    text-decoration:none;
+}
+.login a:hover{
+    color:white;
+}
+.login .signup{
+    background:orange;
+    border-radius: 0.5rem;
+}
+.rent .rentclass{
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+}
+.rentclass span{
+    font-weight:500;
+    text-transform:uppercase;  
+}
+.rentclass h1{
+    font-size: 2rem;
+    display: grid;
+    align-items:center;
+}
+.rent-container{
+    align-items: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap:1rem;
+    margin-top: 2rem;   
+}
+.rent-container .box{
+    text-align: center;
+    padding:20px;
+}
+.rent-container .box .bx{
+    font-size:34px;
+    padding: 10px;
+    background: orange;
+    border-radius:0.5rem;
+    color: var(--main-color);
+}
+.rent-container .box .bx:hover{
+     color:white;
+}
+

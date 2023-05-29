@@ -1,0 +1,107 @@
+header{
+    width:100%;
+    top:0;
+    padding-top: 0px;
+    right:0;
+    z-index:1000;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    background:gainsboro;
+    padding: 25px 10px;
+    font-size: 25px;
+}
+.logo img{
+    width: 300px;
+    height: 100px;
+}
+.navbar{
+    display:flex;
+    list-style-type:none;
+}
+.navbar li{
+    position:relative;
+    float:center;
+}
+.navbar a{
+    padding: 10px 15px;
+    font-size:25px;
+    font-weight:500;
+    color:black;
+    float:center;
+    align-items: right;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:orange;
+    transition:0.5s;
+}
+.login a{
+    padding: 10px 10px;
+    justify-content: space-between;
+    color: black;
+    text-decoration:none;
+}
+.login a:hover{
+    color:white;
+}
+.login .signup{
+    background:orange;
+    border-radius: 0.5rem;
+}
+.service-containers{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    gap: 1rem;
+    margin-top:2rem ;
+
+}
+.service-containers .box {
+    padding:10px;
+    border-radius: 1rem;
+}
+.service-containers .box .box-img {
+    width:100%;
+    height:200px;
+}
+.service-containers .box .box-img img{
+    width:100%;
+    height:100%;
+    border-radius:1 rem ;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 1rem;
+}
+.services .heading{
+    text-align: center;
+    padding-top: 30px;
+}
+.services  span{
+    font-weight:500;
+    text-transform:uppercase;  
+}
+.service-containers .box p{
+    padding: 0 10px;
+    font-weight:600;
+}
+.service-containers .box h3{
+    padding: 0 10px;
+    font-weight:600;
+}
+.service-containers .box span{
+    color:orange;
+}
+.service-containers .box .btn{
+    padding: 10px 34px;
+    border:none;
+    border-radius:0.5rem;
+    background: orange;
+    color:white;
+    font-size: 2 rem;
+    font-weight: 500; 
+    text-decoration: none;
+}
+.service-containers .box .btn:hover{
+    color:#eeeff1;
+}
+
